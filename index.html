@@ -5,26 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook - entre ou cadastre-se</title>
     <link rel="stylesheet" href="style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="content">
         <header>
             <div class="logo-mobile">
-                <img src="assets/facebook-logo(2).svg" alt="Facebook-logo">
+                <img src="assets/facebook-logo(2).svg" alt="Logo Facebook">
             </div>
         </header>
 
         <div class="principal">
-            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Logo Facebook">
-            <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
-            </h2>
+            <div id="logo-web">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Logo Facebook">
+            </div>
+
+            <div id="text-main">
+                <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+            </div>
+
         </div>
 
         <div>
-            <form class="login" autocomplete="off">
-                <input type="text" id="input-login" placeholder="Email ou telefone">
+            <form class="login">
+                <input type="text" required id="input-login" placeholder="Email ou telefone">
                 
-                <input type="password" id="input-login" placeholder="Senha">
+                <input type="password" required id="input-login" placeholder="Senha">
                 
                 <button>
                     Entrar
@@ -41,10 +48,10 @@
                 <a href="#" id="create-acount">Criar nova conta</a>
                 
             </form>
-        </div>
 
-        <div>
-            <p><strong>Criar uma Página</strong> para uma celebridade, banda ou empresa.</p>
+            <div>
+                <p><strong>Criar uma Página</strong> para uma celebridade, banda ou empresa.</p>
+            </div>
         </div>
 
     </div>

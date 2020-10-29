@@ -34,8 +34,8 @@ header {
     flex-direction: column;
     padding: 20px;
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: -2px 4px 8px 0px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    box-shadow: -2px 4px 8px 0px rgba(0, 0, 0, 0.123);
 }
 
 #input-login {
@@ -124,3 +124,38 @@ div > p {
     font-weight: 400;
 }
 
+@media (min-width: 768px) {
+    body {
+        background-color: #f0f2f5;
+    }
+
+    .content {
+        width: 980px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background-color: #f0f2f5;
+    }
+
+    header{
+        display: none;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 110px;
+    }
+
+    #logo-web {
+        width: 300px;
+        margin-left: -348px;
+    }
+
+    #text-main {
+        font-family: 'Open Sans', sans-serif;
+    }
+}
